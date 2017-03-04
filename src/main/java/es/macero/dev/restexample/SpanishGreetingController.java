@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 @RestController
-@RequestMapping("/spanish-greeting")
+@RequestMapping("/spanish-greetings")
 public class SpanishGreetingController {
 
     private List<SpanishGreeting> spanishGreetings;
