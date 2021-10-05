@@ -13,7 +13,7 @@ pipeline {
                    
                     sh 'pwd'
                     sh 'ls -ltr'
-                    sh 'cd target'
+                    sh 'cd /target'
                     sh  'pwd'
                     sh 'ls -ltr'
                     //sh 'java -jar *.jar'
