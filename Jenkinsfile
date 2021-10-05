@@ -11,7 +11,7 @@ pipeline {
             stage('run'){
                 steps{
                    
-                    sh 'sudo su -s /bin/bash jenkins -u 'asunder' -p 'Ubuntu@123''
+                    sh 'sudo su -s /bin/bash jenkins -u asunder -p Ubuntu@123'
                     sh 'cd /var/lib/jenkins/workspace/springbootpipeline_test/target'
                     sh 'java -jar *.jar'
                 
