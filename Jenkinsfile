@@ -22,7 +22,7 @@ pipeline {
                 
                     steps{
                     
-                    //sh 'curl http://localhost:8082'
+                    sh 'curl http://localhost:8080'
                     
                     
                     }
