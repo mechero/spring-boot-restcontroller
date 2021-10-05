@@ -17,6 +17,7 @@ pipeline {
                     sh 'echo $HOME'
                     sh 'cd $HOME/workspace/springbootpipeline_test/target'
                     sh 'set HOME=/var/lib/workspace/springbootpipeline_test/target'
+                    sh 'cd $HOME'
                     sh 'ls -ltr'
                     //sh 'java -jar *.jar'
                 
