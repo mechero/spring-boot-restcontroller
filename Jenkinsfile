@@ -13,7 +13,8 @@ pipeline {
                    
                     sh 'pwd'
                     sh 'ls -ltr'
-                    //sh 'cd /var/lib/jenkins/workspace/springbootpipeline_test/target'
+                    sh 'cd target'
+                    sh 'ls-ltr | grep *.jar'
                     //sh 'java -jar *.jar'
                 
                 }
