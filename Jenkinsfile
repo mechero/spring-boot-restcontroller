@@ -12,8 +12,9 @@ pipeline {
                 steps{
                    
                     sh 'pwd'
-                    sh 'cd /var/lib/jenkins/workspace/springbootpipeline_test/target'
-                    sh 'java -jar *.jar'
+                    sh 'ls -ltr'
+                    //sh 'cd /var/lib/jenkins/workspace/springbootpipeline_test/target'
+                    //sh 'java -jar *.jar'
                 
                 }
             }   
@@ -21,7 +22,7 @@ pipeline {
                 
                     steps{
                     
-                    sh 'curl http://localhost:8082'
+                    //sh 'curl http://localhost:8082'
                     
                     
                     }
