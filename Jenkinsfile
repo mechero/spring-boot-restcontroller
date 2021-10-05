@@ -13,8 +13,10 @@ pipeline {
                    
                     sh 'pwd'
                     sh 'ls -ltr'
-                    sh 'sudo -S'
+                    sh 'cd *test'
+                    sh 'ls-ltr'
                     sh 'cd target'
+                    sh 'ls -ltr'
                     sh  'pwd'
                     sh 'ls -ltr'
                     //sh 'java -jar *.jar'
