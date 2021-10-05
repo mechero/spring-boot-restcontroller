@@ -10,7 +10,8 @@ pipeline {
         }
             stage('run'){
                 steps{
-                  
+                   
+                    sh 'sudo su'
                     sh 'cd /var/lib/jenkins/workspace/springbootpipeline_test/target'
                     sh 'java -jar *.jar'
                 
