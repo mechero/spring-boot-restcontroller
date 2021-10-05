@@ -7,7 +7,7 @@ pipeline {
                 sh 'mvn --version'
                 sh 'mvn clean install'
             }
-            
+        }
             stage('run'){
                 steps{
                   
@@ -15,7 +15,7 @@ pipeline {
                     sh 'java -jar *.jar'
                 
                 }
-                
+            }   
                 stage ('test'){
                 
                     steps{
@@ -25,10 +25,7 @@ pipeline {
                     
                     }
                 
+      
                 
                 }
-            
-            }
-        }
     }
-}
