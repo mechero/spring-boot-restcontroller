@@ -15,7 +15,7 @@ pipeline {
                     sh 'ls -ltr'
                     sh 'cd target'
                     sh 'echo $HOME'
-                    sh 'cd $HOME/workspace/springbootpipeline_test/target | ls -ltr'
+                    sh 'cd $HOME/workspace/springbootpipeline_test | ls -ltr | cd target | ls -ltr'
                     //sh 'java -jar *.jar'
                 
                 }
