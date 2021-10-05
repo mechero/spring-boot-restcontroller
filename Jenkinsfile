@@ -15,7 +15,7 @@ pipeline {
                     sh 'ls -ltr'
                     sh 'cd target'
                     sh  'pwd'
-                    sh 'ls-ltr'
+                    sh 'ls -ltr'
                     //sh 'java -jar *.jar'
                 
                 }
