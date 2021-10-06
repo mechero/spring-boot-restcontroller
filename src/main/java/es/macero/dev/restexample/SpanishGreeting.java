@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.*;
 @Component
 public class SpanishGreeting {
     
-    @Value("${name}")	
+    //@Value("${name}")	
     private String message;
 
     // Required for JSON deserialization
